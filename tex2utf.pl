@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/env perl
 
 # $Id: tex2utf.pl, v 1.1 2022/01/04 11:37:00 Pomax $
 #
@@ -2073,8 +2073,11 @@ $contents{"\\qquad"}="     ";
 $type{"\\Delta"}="string";
 $contents{"\\Delta"}="△";
 
+$type{"\\pi"}="string";
+$contents{"\\pi"}="π";
+
 $type{"\\Pi"}="string";
-$contents{"\\Pi"}="π";
+$contents{"\\Pi"}="Π";
 
 $type{"\\alpha"}="string";
 $contents{"\\alpha"}="α";
